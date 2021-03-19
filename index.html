@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>Big Wave</title>
+	<link href="style/style.css" rel="stylesheet" type="text/css"  />
+	<link href="style/style1.css" rel="stylesheet" type="text/css"  />
+	
+	<div class="header">
+  
+	<h1 style="font-size:50px;" align="center" background-color="white"> Big Wave Amusement and Water Park</h1>
+	
+</div>
+		
+	<body background="image/background.jpeg" >
+	  
+		
+</body>
+
+<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet" />
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+ 
+</header>
+
+
+<nav>
+      <a href="index.html"> <button class="button">Home</button></a> &nbsp;
+      <a href="about.html"><button class="button">About</button></a> &nbsp;
+      <a href="services.html"><button class="button">Services</button></a> &nbsp;
+	  <a href="Reservation.html"><button class="button">Private Event Reservation</button></a> &nbsp;
+	  <a href="Contact.html"><button class="button">Contact Us</button></a> &nbsp;
+</nav>
+	
+
+	
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="image/water.jpeg" alt="one"  width="100%" height="100px">
+  
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="image/funcow.jpeg" alt="two"  width="100%" height="100px">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="image/image1.jpeg" alt="three"  width="100%" height="100px">
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+	<div class="section">
+		<img src="image/image1.jpeg" alt="image"  width="25%" height="20%" align="right">
+		
+		<img src="image/shower.jpeg" alt="image"  width="25%" height="10%" align="right">
+	 <h3 style="font-size:20px;" align="center">Welcome to Big Wave Amusement Park</h3>
+		 <p style="font-size:20px;">No matter what the weather is like outside, it's always a balmy 84 degrees inside this 80,000-square-foot tropical paradise. And one of the best parts about coming here is that you never have to worry about waiting in long lines since the resort is only accessible to hotel guests. But, don't let that deter you--because an overnight stay here can sometimes end up being less costly than a family outing at a public water park. As far as attractions go, the Great Wolf Lodge has it all--seven pools, twelve water slide rides plus a multi-level tree house tricked out with a boatload of interactive features. Oh, and in addition to the indoor water park, the lodge also features Racoon Lagoon, an outdoor water park that is open from Memorial Day through Labor Day.</p>
+
+	</div>
+		
+	  
+	  <div class="article">
+		  <img src="image/image2.jpeg" alt="image"  width="25%" height="10%" align="right">
+		  <img src="image/image3.jpeg" alt="image"  width="25%" height="auto" align="left">
+		  <img src="image/image4.jpeg" alt="image"  width="25%" height="25%" align="left">
+  <p1 style="font-size:20px;">Opening Hours<br>
+Everyday <br>
+10:00 AM - 7:00 PM(Summer )<br>
+Everyday <br>
+11:00 AM - 5:00 PM (Winter) <br>
+		
+<br>
+
+857-000-0000 <br>
+116 Granite Ave
+Boston, MA,11213
+	  </p1>
+	
+</div>
+
+
+ <div class="footer">
+
+	<p style="font-size:20px;">
+	 Copyright &copy; Big Wave WaterPark <br> 
+	  Contact information:116 Granite Ave, Boston, MA, 11213<br>
+		(857)-000-0000
+		<a href="bigwave.com">
+  bigwave.com</a>.<br>
+		
+		<a href="index.html"> </a> &nbsp;
+	</p>
+	</div>
+
+
+</div>
+	
+
+	
+</body>
+</html>

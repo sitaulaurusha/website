@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+  box-sizing: border-box;
+	}
+	menu {text-align: center;}	
+
+
+input[type=text], textarea, number {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  
+}
+
+input[type=textarea]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text]:hover {
+  background-color: #ADDBA1;
+  
+}
+
+input[type=textarea]:hover {
+  background-color: #ADDBA1;
+}
+ 
+
+input[type=number]:hover {
+  background-color: #F3B9B8;
+
+}
+
+.container {
+
+  border-radius: 10px;
+  background-color:#A3AD66;
+  padding: 30px;
+}
+.container:hover {
+background:#D0B0B1;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.table-wrapper {
+  margin-top: 80px;
+  /* margin: 10px 70px 70px; */
+  box-shadow: 0px m5px 50px rgb(0, 0, 0, 0.2);
+}
+
+.f1-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: whitesmoke;
+}
+
+.f1-table td,
+.f1-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.f1-table td {
+  border-right: 1px solid white;
+  font-size: 12px;
+}
+
+.f1-table thead th {
+  color: black;
+  background: #4fc3a1;
+}
+
+.f1-table thead th:nth-child(odd) {
+  color: white;
+  background: #324960;
+}
+
+.f1-table tr:nth-child(even) {
+  background: white;
+}
+
